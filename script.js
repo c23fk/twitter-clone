@@ -8,8 +8,10 @@ function processForm(e) {
     }
     const list = document.getElementById('timeline');
     const li = document.createElement('li');
-    li.innerText = tweet;
-    list.appendChild(li);
+    const div = document.createElement('div');
+    div.className="tweet";
+    div.innerText = tweet;
+    list.appendChild(div);
     e.path[0][0].value = "";
 
 }
