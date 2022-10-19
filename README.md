@@ -1,0 +1,2 @@
+# Twitter clone
+### My project allows a user to post messages to their own twitter timeline. It allows the user to delete tweets. It also uses a max length of 250 characters. Next I would like have it store tweets in a cookie so that the user does not lose their tweets on reload.
