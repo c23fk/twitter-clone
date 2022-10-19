@@ -8,7 +8,7 @@ body {
 }
 
 .tweet{
-    height: var(--boxSize);
+    position: relative;
     line-height: var(--boxSize);
     text-align: center;
     background-color: black;
@@ -16,6 +16,7 @@ body {
     border: 10px solid var(--background-color);
     border-radius: 20px;
     font-size:50px;
+    overflow-wrap: break-word
 }
 
 
@@ -39,4 +40,19 @@ input {
     border: 5px solid var(--background-color);
     border-radius: 20px;
     color: var(--background-color);
+}
+
+
+.delete{
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: var(--background-color);
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
 }
