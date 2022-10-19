@@ -1,12 +1,13 @@
+/* Variables */
 :root {
     --boxSize: 100px;
     --background-color: rgb(5,195,221);
-  }
-
+}
+/* Background */
 body {
     background-color: black;
 }
-
+/* Styling for the tweets */
 .tweet{
     position: relative;
     line-height: var(--boxSize);
@@ -16,10 +17,11 @@ body {
     border: 10px solid var(--background-color);
     border-radius: 20px;
     font-size:50px;
+    /* make the text wrap around */
     overflow-wrap: break-word
 }
 
-
+/* format the elements at the top of the page */
 h1, form{
     color: var(--background-color);
     text-align: center;
@@ -29,11 +31,12 @@ h1, form{
 h1{
     font-size: 50px;
 }
-
+/* Add spacing to the page */
 form{
     padding-bottom: 50px;
 }
 
+/* styling for the form */
 input {
     height: 50px;
     font-size: 30px;
@@ -42,8 +45,9 @@ input {
     color: var(--background-color);
 }
 
-
+/* styling for the delete button */
 .delete{
+    /* place it at the top right of the tweet */
     position: absolute;
     top: 0;
     right:0;

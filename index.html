@@ -7,11 +7,14 @@
 </head>
 <body>
     <h1>Twitter</h1>
+    <!--Form to submit a tweet-->
     <form id="send-tweet">
-        <input type="text" id="tweet" maxlength="250" />
+        <!--input for the tweet (no more than 250 characters)-->
+        <input placeholder = "Tweet" type="text" id="tweet" maxlength="250" />
         <br>
         <input type="submit" value="Submit Tweet" />
     </form>
+    <!-- div to hold all of the tweets-->
     <div id="timeline"></div>
     <script src="script.js"></script>
 </body>
